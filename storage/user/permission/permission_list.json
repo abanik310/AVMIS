@@ -1,0 +1,37 @@
+[
+  
+  {
+    "controller":{"value":"CommonController","name":"Common Permission"},
+    "routes":[
+      {"value":"division_name","name":"Load Division Name"},
+      {"value":"district_name","name":"Load Unit/District Name"},
+      {"value":"thana_name","name":"Load Thana Name"},
+      {"value":"kpi_name","name":"Load Kpi/Guard Name"},
+      {"value":"get_skill_list","name":"Load Skill"},
+      {"value":"get_disease_list","name":"Load Disease"},
+      {"value":"ansar_rank","name":"Load Rank"},
+      {"value":"blood_name","name":"Load Blood Group"}
+    ]
+  },
+  
+  {
+    "controller":{"value":"SessionController","name":"Session"},
+    "routes":[
+      {"value":"create_session","name":"Add New Session"},
+      {"value":"edit_session","name":"Edit Session"}
+    ]
+  },
+  {
+    "controller":{"value":"RecruitmentController","name":"Recruitment"},
+    "routes":[
+      {"value":"create_session","name":"Add New Session"},
+      {"value":"edit_session","name":"Edit Session"}
+    ]
+  },
+  {
+    "controller":{"value":"UserController","name":"User"},
+    "routes":[
+      {"value":"edit_user_permission","name":"User Edit Permission"}
+    ]
+  }
+]

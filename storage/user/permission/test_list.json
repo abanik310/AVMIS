@@ -1,0 +1,118 @@
+[
+  {
+    "root": "Common Permission",
+    "children": [
+      {
+        "value": "division_name",
+        "name": "Load Division Name"
+      },
+      {
+        "value": "district_name",
+        "name": "Load Unit/District Name"
+      },
+      {
+        "value": "thana_name",
+        "name": "Load Thana Name"
+      },
+      {
+        "value": "HRM.union.showall",
+        "name": "Load Unions"
+      }
+    ]
+  },
+  {
+    "root": "AVMIS",
+    "children": [
+      {
+        "value": "admin_dashboard",
+        "name": "Dashboard"
+      },
+      {
+        "value": "admin_registration",
+        "name": "Registration"
+      },
+      {
+        "value": "edit_user_permission",
+        "name": "Edit User Permission"
+      },
+      {
+        "text": "Entry List",
+        "actions": [
+          {
+            "value": "entry_list",
+            "name": "Entry List"
+          },
+          {
+            "value": "import_list",
+            "name": "Import List"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "root": "API",
+    "children": [
+      {
+        "text": "HRM",
+        "actions": [
+          {
+            "value": "HRM.api.division",
+            "name": "Division List"
+          },
+          {
+            "value": "HRM.api.unit",
+            "name": "Unit List"
+          },
+          {
+            "value": "HRM.api.thana",
+            "name": "Thana List"
+          },
+          {
+            "value": "HRM.api.union",
+            "name": "Union List"
+          },
+          {
+            "value": "HRM.api.blood_group",
+            "name": "Blood Group List"
+          },
+          {
+            "value": "HRM.api.main_training",
+            "name": "Main training List"
+          },
+          {
+            "value": "HRM.api.sub_training",
+            "name": "Sub training List"
+          }
+        ]
+      },
+      {
+        "text": "AVURP",
+        "actions": [
+          {
+            "value": "AVURP.api.index",
+            "name": "All VDP Info"
+          },
+          {
+            "value": "AVURP.api.store",
+            "name": "Create New VDP"
+          },
+          {
+            "value": "AVURP.api.show",
+            "name": "View VDP Details"
+          },
+          {
+            "value": "AVURP.api.edit",
+            "name": "Edit VDP Details"
+          },
+          {
+            "value": "AVURP.api.update",
+            "name": "Update VDP Details"
+          }
+        ]
+      }
+    ]
+  }
+  
+]
